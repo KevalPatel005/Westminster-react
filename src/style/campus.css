@@ -1,0 +1,41 @@
+/* maps-style */
+
+.map-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Style for each card */
+.map-card {
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map-card-body {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+
+.map-style {
+    width: 400px;
+}
+
+.map-card-title {
+    font-size: 1.5rem;
+    align-self: center;
+    text-transform: uppercase;
+
+}
+
+.map-card-text {
+    font-size: 1rem;
+    text-transform: uppercase;
+    /* Adjust the font size of the description */
+}

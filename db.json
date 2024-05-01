@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": "af6a",
+      "name": "Jay Patel",
+      "email": "jay@gmail.com",
+      "password": "1234",
+      "phone": "9833100768",
+      "address": "London, UK",
+      "courses": [
+        {
+          "id": "c1",
+          "course": "MSc Computer Science",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Post Graduate"
+        },
+        [
+          {
+            "id": "c2",
+            "course": "BSc Computer Science",
+            "courseLength": "12 months",
+            "intake": "sept 2024",
+            "level": "Under Graduate"
+          }
+        ],
+        [
+          {
+            "id": "c3",
+            "course": "MSc Data Science and Analytics",
+            "courseLength": "12 months",
+            "intake": "sept 2024",
+            "level": "Post Graduate"
+          }
+        ],
+        {
+          "id": "c5",
+          "course": "MSc Bio-Chemistry",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Post Graduate"
+        },
+        {
+          "id": "c6",
+          "course": "BSc Data Science and Analytics",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Under Graduate"
+        },
+        {
+          "id": "c2",
+          "course": "BSc Computer Science",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Under Graduate"
+        },
+        {
+          "id": "c3",
+          "course": "MSc Data Science and Analytics",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Post Graduate"
+        }
+      ]
+    },
+    {
+      "id": "4daa",
+      "name": "Keval Patel",
+      "email": "kp@gmail.com",
+      "password": "1234",
+      "phone": "934882",
+      "address": "London, United Kongdom",
+      "courses": [
+        {
+          "id": "c2",
+          "course": "BSc Computer Science",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Under Graduate"
+        }
+      ]
+    },
+    {
+      "id": "0bda",
+      "name": "Gaurang Jagtap",
+      "email": "g@gmail.com",
+      "password": "1234",
+      "phone": "124245",
+      "address": "Harrow",
+      "courses": [
+        {
+          "id": "c5",
+          "course": "MSc Bio-Chemistry",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Post Graduate"
+        },
+        {
+          "id": "c3",
+          "course": "MSc Data Science and Analytics",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Post Graduate"
+        }
+      ]
+    },
+    {
+      "id": "0557",
+      "name": "Harsh Awasti",
+      "email": "h@gmail.com",
+      "password": "1234",
+      "phone": "1234",
+      "address": "",
+      "courses": [
+        {
+          "id": "c4",
+          "course": "MSc International Finance",
+          "courseLength": "12 months",
+          "intake": "sept 2024",
+          "level": "Post Graduate"
+        }
+      ]
+    }
+  ],
+  "students": [
+    {
+      "id": "ac76",
+      "name": "Gaurang Jagtap",
+      "email": "gj@gmail.com",
+      "level": "UG",
+      "course": "MSc Computer Science",
+      "intake": "Sept 2024"
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "course": "MSc Computer Science",
+      "courseLength": "12 months",
+      "intake": "sept 2024",
+      "level": "Post Graduate"
+    },
+    {
+      "id": "c2",
+      "course": "BSc Computer Science",
+      "courseLength": "12 months",
+      "intake": "sept 2024",
+      "level": "Under Graduate"
+    },
+    {
+      "id": "c3",
+      "course": "MSc Data Science and Analytics",
+      "courseLength": "12 months",
+      "intake": "sept 2024",
+      "level": "Post Graduate"
+    },
+    {
+      "id": "c4",
+      "course": "MSc International Finance",
+      "courseLength": "12 months",
+      "intake": "sept 2024",
+      "level": "Post Graduate"
+    },
+    {
+      "id": "c5",
+      "course": "MSc Bio-Chemistry",
+      "courseLength": "12 months",
+      "intake": "sept 2024",
+      "level": "Post Graduate"
+    },
+    {
+      "id": "c6",
+      "course": "BSc Data Science and Analytics",
+      "courseLength": "12 months",
+      "intake": "sept 2024",
+      "level": "Under Graduate"
+    }
+  ]
+}

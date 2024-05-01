@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+
+.nav-wrapper {
+    background-color: white;
+}
+
+.nav-wrapper a {
+    color: rgb(0, 0, 0);
+}
+
+.nav-wrapper ul li a {
+    color: rgb(0, 0, 0);
+}
+
+.logout-btn {
+    margin: -3px 5px auto 10px;
+}
+
+.brand-logo {
+    font-family: "Grand Hotel", cursive;
+    margin-left: 20px;
+}
+
+#nav-mobile {
+    margin-right: 20px;
+}
+
+.my-navbar{
+    position : fixed;
+}
+
+
+/* Banner.css */
+
+.home-heading{
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: double;
+    font-size: large;
+    opacity: 0.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background: linear-gradient(360deg, #959eff, #0c2dff);
+    /* Adjust gradient colors as needed */
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.banner-content button {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.banner-content button:hover {
+    background-color: #fff;
+    color: #FF9D6C;
+}
+
+/* LOGIN/SIGNUP */
+
+.my-heading {
+    font-family: "Grand Hotel", cursive;
+    font-size: 32px !important;
+}
+
+.card-container {
+    max-width: 500px;
+    width: 50%px;
+    height: 550px;
+    margin: 20px auto;
+    padding: 50px 25px;
+}
+
+.card-wrapper {
+    margin: 50px 25px;
+    padding: 25px;
+}
+
+.form-type {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+
+.my-btn {
+    align-self: center;
+    margin: 20px 40%;
+    padding: auto 20px;
+}
+
+.enroll-btn {
+    align-self: left;
+    margin: 20px 40%;
+    padding: auto 20px;
+}
+
+.redirect {
+    text-align: center;
+}
+
+/* PROFILE */
+
+.profile-container {
+    max-width: 750px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    border-bottom: 2px solid lightgrey;
+}
+
+.profile-pic {
+    width: 40%;
+}
+
+.profile-pic>img {
+    height: 200px;
+    display: block;
+    width: 200px;
+    border-radius: 100px;
+    margin: 40px auto;
+}
+
+.profile-info {
+    margin: 30px auto 0 20px;
+    width: 50%;
+}
+
+.username {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.reach {
+    margin-top: 30px;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+br {
+    border: 1px solid lightgrey;
+}
+
+.posts {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.posts>img {
+    width: 210px;
+    height: 210px;
+    min-height: 150px;
+    margin: 15px auto;
+}
+
+.courses-container {
+    margin: 30px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.courses-card-container{
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .profile-pic {
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-pic>img {
+        margin-bottom: 0;
+    }
+
+    .profile-info {
+        margin-top: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .reach {
+        margin: 0 auto 25px;
+    }
+}
+
+/* HOME */
+
+.home-container {
+    max-width: 750px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.post {
+    width: 100%;
+    margin: 40px auto;
+    border: 1px solid lightgrey;
+}
+
+.post>img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 5px 10px;
+}
+
+.body {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 5px 10px;
+}
+
+.post-username {
+    margin: 10px 0 10px 10px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.fa-icon-heart {
+    font-size: 22px;
+    color: red;
+    margin: 10px 10px;
+    opacity: 0.8;
+}
+
+.likes {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 5px 10px;
+    color: black;
+}
+
+.comment-section {
+    font-size: 22px;
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-input {
+    width: 90% !important;
+    margin-right: 20px;
+}
+
+.comment-btn {
+    border-radius: 35px;
+}
+
+.comments-display {
+    display: flex;
+    margin: 5px 10px;
+}
+
+.postedby {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.comment {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.delete-icon {
+    font-size: 22px;
+    color: lightseagreen;
+    float: right;
+    display: block;
+    margin-top: 7px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.profile-navigation {
+    color: black;
+    font-weight: 400;
+}
+
+.follow-btn {
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .home-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .brand-logo {
+        margin-left: 0;
+    }
+
+    .follow-btn {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .post {
+        margin: 40px auto;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .post-username {
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .body {
+        font-size: 18px;
+    }
+
+    .fa-icon-heart {
+        font-size: 18px;
+    }
+
+    .likes {
+        font-size: 18px;
+    }
+
+    .follow-btn {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+}
