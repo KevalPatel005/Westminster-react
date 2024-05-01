@@ -1,4 +1,5 @@
 React and JSON Server Application
+
 This project is a combination of a React frontend application and a JSON Server backend. It provides a simple setup for building and deploying full-stack web applications with React for the frontend and JSON Server for the backend.
 
 Features
@@ -39,12 +40,10 @@ bash
 Copy code
 cd backend
 npm start
-The JSON Server will run on http://localhost:3000 by default.
+The JSON Server will run on http://localhost:3333.
 Start the React frontend:
 bash
 Copy code
 cd frontend
 npm start
 The React app will run on http://localhost:3000 by default and automatically open in your default web browser.
-Contributing
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
